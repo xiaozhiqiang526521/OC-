@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F38EE7DD1D29F4E40007C4A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F38EE7DC1D29F4E40007C4A9 /* main.m */; };
+		F38EE7E01D29F4E40007C4A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F38EE7DF1D29F4E40007C4A9 /* AppDelegate.m */; };
+		F38EE7E31D29F4E40007C4A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38EE7E21D29F4E40007C4A9 /* ViewController.m */; };
+		F38EE7E61D29F4E40007C4A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38EE7E41D29F4E40007C4A9 /* Main.storyboard */; };
+		F38EE7E91D29F4E40007C4A9 /* OC_________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F38EE7E71D29F4E40007C4A9 /* OC_________.xcdatamodeld */; };
+		F38EE7EB1D29F4E40007C4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38EE7EA1D29F4E40007C4A9 /* Assets.xcassets */; };
+		F38EE7EE1D29F4E40007C4A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F38EE7EC1D29F4E40007C4A9 /* LaunchScreen.storyboard */; };
+		F38EE7F91D29F4E40007C4A9 /* OC_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F38EE7F81D29F4E40007C4A9 /* OC_________Tests.m */; };
+		F38EE8041D29F4E40007C4A9 /* OC_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F38EE8031D29F4E40007C4A9 /* OC_________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38EE7F51D29F4E40007C4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38EE7D01D29F4E40007C4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38EE7D71D29F4E40007C4A9;
+			remoteInfo = "OC_生成与读取二维码";
+		};
+		F38EE8001D29F4E40007C4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F38EE7D01D29F4E40007C4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38EE7D71D29F4E40007C4A9;
+			remoteInfo = "OC_生成与读取二维码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F38EE7D81D29F4E40007C4A9 /* OC_生成与读取二维码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC_生成与读取二维码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38EE7DC1D29F4E40007C4A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F38EE7DE1D29F4E40007C4A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F38EE7DF1D29F4E40007C4A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F38EE7E11D29F4E40007C4A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F38EE7E21D29F4E40007C4A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F38EE7E51D29F4E40007C4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F38EE7E81D29F4E40007C4A9 /* OC_________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "OC_________.xcdatamodel"; sourceTree = "<group>"; };
+		F38EE7EA1D29F4E40007C4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38EE7ED1D29F4E40007C4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F38EE7EF1D29F4E40007C4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38EE7F41D29F4E40007C4A9 /* OC_生成与读取二维码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC_生成与读取二维码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38EE7F81D29F4E40007C4A9 /* OC_________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC_________Tests.m"; sourceTree = "<group>"; };
+		F38EE7FA1D29F4E40007C4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38EE7FF1D29F4E40007C4A9 /* OC_生成与读取二维码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC_生成与读取二维码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38EE8031D29F4E40007C4A9 /* OC_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC_________UITests.m"; sourceTree = "<group>"; };
+		F38EE8051D29F4E40007C4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38EE7D51D29F4E40007C4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38EE7F11D29F4E40007C4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38EE7FC1D29F4E40007C4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F38EE7CF1D29F4E40007C4A9 = {
+			isa = PBXGroup;
+			children = (
+				F38EE7DA1D29F4E40007C4A9 /* OC_生成与读取二维码 */,
+				F38EE7F71D29F4E40007C4A9 /* OC_生成与读取二维码Tests */,
+				F38EE8021D29F4E40007C4A9 /* OC_生成与读取二维码UITests */,
+				F38EE7D91D29F4E40007C4A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F38EE7D91D29F4E40007C4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38EE7D81D29F4E40007C4A9 /* OC_生成与读取二维码.app */,
+				F38EE7F41D29F4E40007C4A9 /* OC_生成与读取二维码Tests.xctest */,
+				F38EE7FF1D29F4E40007C4A9 /* OC_生成与读取二维码UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38EE7DA1D29F4E40007C4A9 /* OC_生成与读取二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				F38EE7DE1D29F4E40007C4A9 /* AppDelegate.h */,
+				F38EE7DF1D29F4E40007C4A9 /* AppDelegate.m */,
+				F38EE7E11D29F4E40007C4A9 /* ViewController.h */,
+				F38EE7E21D29F4E40007C4A9 /* ViewController.m */,
+				F38EE7E41D29F4E40007C4A9 /* Main.storyboard */,
+				F38EE7EA1D29F4E40007C4A9 /* Assets.xcassets */,
+				F38EE7EC1D29F4E40007C4A9 /* LaunchScreen.storyboard */,
+				F38EE7EF1D29F4E40007C4A9 /* Info.plist */,
+				F38EE7E71D29F4E40007C4A9 /* OC_________.xcdatamodeld */,
+				F38EE7DB1D29F4E40007C4A9 /* Supporting Files */,
+			);
+			path = "OC_生成与读取二维码";
+			sourceTree = "<group>";
+		};
+		F38EE7DB1D29F4E40007C4A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38EE7DC1D29F4E40007C4A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F38EE7F71D29F4E40007C4A9 /* OC_生成与读取二维码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F38EE7F81D29F4E40007C4A9 /* OC_________Tests.m */,
+				F38EE7FA1D29F4E40007C4A9 /* Info.plist */,
+			);
+			path = "OC_生成与读取二维码Tests";
+			sourceTree = "<group>";
+		};
+		F38EE8021D29F4E40007C4A9 /* OC_生成与读取二维码UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F38EE8031D29F4E40007C4A9 /* OC_________UITests.m */,
+				F38EE8051D29F4E40007C4A9 /* Info.plist */,
+			);
+			path = "OC_生成与读取二维码UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38EE7D71D29F4E40007C4A9 /* OC_生成与读取二维码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38EE8081D29F4E40007C4A9 /* Build configuration list for PBXNativeTarget "OC_生成与读取二维码" */;
+			buildPhases = (
+				F38EE7D41D29F4E40007C4A9 /* Sources */,
+				F38EE7D51D29F4E40007C4A9 /* Frameworks */,
+				F38EE7D61D29F4E40007C4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC_生成与读取二维码";
+			productName = "OC_生成与读取二维码";
+			productReference = F38EE7D81D29F4E40007C4A9 /* OC_生成与读取二维码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38EE7F31D29F4E40007C4A9 /* OC_生成与读取二维码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38EE80B1D29F4E40007C4A9 /* Build configuration list for PBXNativeTarget "OC_生成与读取二维码Tests" */;
+			buildPhases = (
+				F38EE7F01D29F4E40007C4A9 /* Sources */,
+				F38EE7F11D29F4E40007C4A9 /* Frameworks */,
+				F38EE7F21D29F4E40007C4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38EE7F61D29F4E40007C4A9 /* PBXTargetDependency */,
+			);
+			name = "OC_生成与读取二维码Tests";
+			productName = "OC_生成与读取二维码Tests";
+			productReference = F38EE7F41D29F4E40007C4A9 /* OC_生成与读取二维码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F38EE7FE1D29F4E40007C4A9 /* OC_生成与读取二维码UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38EE80E1D29F4E40007C4A9 /* Build configuration list for PBXNativeTarget "OC_生成与读取二维码UITests" */;
+			buildPhases = (
+				F38EE7FB1D29F4E40007C4A9 /* Sources */,
+				F38EE7FC1D29F4E40007C4A9 /* Frameworks */,
+				F38EE7FD1D29F4E40007C4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38EE8011D29F4E40007C4A9 /* PBXTargetDependency */,
+			);
+			name = "OC_生成与读取二维码UITests";
+			productName = "OC_生成与读取二维码UITests";
+			productReference = F38EE7FF1D29F4E40007C4A9 /* OC_生成与读取二维码UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F38EE7D01D29F4E40007C4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = garday;
+				TargetAttributes = {
+					F38EE7D71D29F4E40007C4A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2CY5L588P3;
+					};
+					F38EE7F31D29F4E40007C4A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2CY5L588P3;
+						TestTargetID = F38EE7D71D29F4E40007C4A9;
+					};
+					F38EE7FE1D29F4E40007C4A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2CY5L588P3;
+						TestTargetID = F38EE7D71D29F4E40007C4A9;
+					};
+				};
+			};
+			buildConfigurationList = F38EE7D31D29F4E40007C4A9 /* Build configuration list for PBXProject "OC_生成与读取二维码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F38EE7CF1D29F4E40007C4A9;
+			productRefGroup = F38EE7D91D29F4E40007C4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38EE7D71D29F4E40007C4A9 /* OC_生成与读取二维码 */,
+				F38EE7F31D29F4E40007C4A9 /* OC_生成与读取二维码Tests */,
+				F38EE7FE1D29F4E40007C4A9 /* OC_生成与读取二维码UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38EE7D61D29F4E40007C4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38EE7EE1D29F4E40007C4A9 /* LaunchScreen.storyboard in Resources */,
+				F38EE7EB1D29F4E40007C4A9 /* Assets.xcassets in Resources */,
+				F38EE7E61D29F4E40007C4A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38EE7F21D29F4E40007C4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38EE7FD1D29F4E40007C4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38EE7D41D29F4E40007C4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38EE7E31D29F4E40007C4A9 /* ViewController.m in Sources */,
+				F38EE7E91D29F4E40007C4A9 /* OC_________.xcdatamodeld in Sources */,
+				F38EE7E01D29F4E40007C4A9 /* AppDelegate.m in Sources */,
+				F38EE7DD1D29F4E40007C4A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38EE7F01D29F4E40007C4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38EE7F91D29F4E40007C4A9 /* OC_________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38EE7FB1D29F4E40007C4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38EE8041D29F4E40007C4A9 /* OC_________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38EE7F61D29F4E40007C4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38EE7D71D29F4E40007C4A9 /* OC_生成与读取二维码 */;
+			targetProxy = F38EE7F51D29F4E40007C4A9 /* PBXContainerItemProxy */;
+		};
+		F38EE8011D29F4E40007C4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38EE7D71D29F4E40007C4A9 /* OC_生成与读取二维码 */;
+			targetProxy = F38EE8001D29F4E40007C4A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F38EE7E41D29F4E40007C4A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38EE7E51D29F4E40007C4A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F38EE7EC1D29F4E40007C4A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38EE7ED1D29F4E40007C4A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F38EE8061D29F4E40007C4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F38EE8071D29F4E40007C4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F38EE8091D29F4E40007C4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC_生成与读取二维码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garday.OC---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F38EE80A1D29F4E40007C4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC_生成与读取二维码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garday.OC---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F38EE80C1D29F4E40007C4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OC_生成与读取二维码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garday.OC---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC_生成与读取二维码.app/OC_生成与读取二维码";
+			};
+			name = Debug;
+		};
+		F38EE80D1D29F4E40007C4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OC_生成与读取二维码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garday.OC---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC_生成与读取二维码.app/OC_生成与读取二维码";
+			};
+			name = Release;
+		};
+		F38EE80F1D29F4E40007C4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OC_生成与读取二维码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garday.OC---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC_生成与读取二维码";
+			};
+			name = Debug;
+		};
+		F38EE8101D29F4E40007C4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OC_生成与读取二维码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garday.OC---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC_生成与读取二维码";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38EE7D31D29F4E40007C4A9 /* Build configuration list for PBXProject "OC_生成与读取二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38EE8061D29F4E40007C4A9 /* Debug */,
+				F38EE8071D29F4E40007C4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38EE8081D29F4E40007C4A9 /* Build configuration list for PBXNativeTarget "OC_生成与读取二维码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38EE8091D29F4E40007C4A9 /* Debug */,
+				F38EE80A1D29F4E40007C4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F38EE80B1D29F4E40007C4A9 /* Build configuration list for PBXNativeTarget "OC_生成与读取二维码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38EE80C1D29F4E40007C4A9 /* Debug */,
+				F38EE80D1D29F4E40007C4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F38EE80E1D29F4E40007C4A9 /* Build configuration list for PBXNativeTarget "OC_生成与读取二维码UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38EE80F1D29F4E40007C4A9 /* Debug */,
+				F38EE8101D29F4E40007C4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F38EE7E71D29F4E40007C4A9 /* OC_________.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F38EE7E81D29F4E40007C4A9 /* OC_________.xcdatamodel */,
+			);
+			currentVersion = F38EE7E81D29F4E40007C4A9 /* OC_________.xcdatamodel */;
+			path = "OC_________.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F38EE7D01D29F4E40007C4A9 /* Project object */;
+}
